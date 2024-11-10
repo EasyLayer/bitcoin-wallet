@@ -656,8 +656,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@easylayer/bitcoin-wallet@workspace:package"
   dependencies:
-    "@easylayer/common": 0.1.1
-    "@easylayer/components": 0.1.1
+    "@easylayer/common": 0.1.2
+    "@easylayer/components": 0.1.2
     "@nestjs-query/core": 0.30.0
     "@nestjs/common": 10.2.10
     "@nestjs/core": 10.2.10
@@ -698,6 +698,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@easylayer/common@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@easylayer/common@npm:0.1.2"
+  dependencies:
+    "@nestjs/common": 10.2.10
+    "@nestjs/core": 10.2.10
+    bignumber.js: 9.1.2
+    bn.js: 5.2.1
+    bunyan: 1.8.15
+    chalk: 4.1.2
+    reflect-metadata: 0.1.14
+    rxjs: 7.8.1
+  checksum: 8ab90a120c64decc57d2b0068b9706aa371730497a5daceb56782192b7b9d05ed212787f7c1aee789f1054be53b23c1ea7927878643e8c6bde5c3b176f19461d
+  languageName: node
+  linkType: hard
+
 "@easylayer/components@npm:0.1.1":
   version: 0.1.1
   resolution: "@easylayer/components@npm:0.1.1"
@@ -731,6 +747,44 @@ __metadata:
     typeorm-transactional: 0.5.0
     uuid: 9.0.1
   checksum: c353b251455aa4a4a9ff3b8986c7d2f839d0f1fef0c2a7e1d3f49cbd92a37b2f1e713e892a82c5e52e6733c54d34fd2a07f346d5d6a673df5050567b633b1d5c
+  languageName: node
+  linkType: hard
+
+"@easylayer/components@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@easylayer/components@npm:0.1.2"
+  dependencies:
+    "@easylayer/common": 0.1.2
+    "@nestjs/common": 10.2.10
+    "@nestjs/core": 10.2.10
+    "@nestjs/cqrs": 10.2.6
+    "@nestjs/platform-socket.io": 10.2.10
+    "@nestjs/swagger": 7.1.17
+    "@nestjs/typeorm": 10.0.2
+    "@nestjs/websockets": 10.2.10
+    async-mutex: 0.5.0
+    better-sqlite3: 11.2.1
+    better-sqlite3-multiple-ciphers: 11.1.2
+    bip32: 4.0.0
+    bip39: 3.1.0
+    bitcoin-core: 4.1.0
+    bitcoinjs-lib: 6.1.6
+    ecpair: 2.1.0
+    lodash: 4.17.21
+    p-queue: 6.6.2
+    pg: 8.12.0
+    pg-error-enum: 0.7.1
+    piscina: 4.1.0
+    reflect-metadata: 0.1.14
+    rocksdb: 5.2.1
+    rxjs: 7.8.1
+    sqlite3: 5.1.7
+    stream-json: 1.8.0
+    tiny-secp256k1: 2.2.3
+    typeorm: 0.3.20
+    typeorm-transactional: 0.5.0
+    uuid: 9.0.1
+  checksum: ea998772849c1ccd545b0196d7ab4cc9fdca1c87b20d8a4254efa6947bd807bf4eb47602748767d1d0ba3865df74c6c614b5b303a0e8c3dffc3481804d2f14b7
   languageName: node
   linkType: hard
 
@@ -2940,6 +2994,28 @@ __metadata:
   version: 2.2.3
   resolution: "before-after-hook@npm:2.2.3"
   checksum: a1a2430976d9bdab4cd89cb50d27fa86b19e2b41812bf1315923b0cba03371ebca99449809226425dd3bcef20e010db61abdaff549278e111d6480034bebae87
+  languageName: node
+  linkType: hard
+
+"better-sqlite3-multiple-ciphers@npm:11.1.2":
+  version: 11.1.2
+  resolution: "better-sqlite3-multiple-ciphers@npm:11.1.2"
+  dependencies:
+    bindings: ^1.5.0
+    node-gyp: latest
+    prebuild-install: ^7.1.1
+  checksum: 4a1a3d9f44c4926ede329a8176d60be49258ccba6f22caeca9ea62a7146b2f4ccbb79e6f8a90e7adfaaaaca45154d22a00c1151b14c39bb98f770ba2e3e98eef
+  languageName: node
+  linkType: hard
+
+"better-sqlite3@npm:11.2.1":
+  version: 11.2.1
+  resolution: "better-sqlite3@npm:11.2.1"
+  dependencies:
+    bindings: ^1.5.0
+    node-gyp: latest
+    prebuild-install: ^7.1.1
+  checksum: 22259c298e76d4bc2bd993dfc9392bb80ecef948f48342804a7bd38a43ff7693089a9ea0ac0c14ebc195453aa94fce588755f6eea234d7550383b9f6ac7150a9
   languageName: node
   linkType: hard
 
